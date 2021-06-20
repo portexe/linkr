@@ -1,0 +1,32 @@
+.main {
+  display: flex;
+  flex-direction: column;
+
+  width: 350px;
+  max-width: 97%;
+}
+.main button,
+.main input {
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+}
+.main input {
+  box-shadow: 0px 0px 3px gray;
+}
+.main button {
+  color: white;
+  background-color: rgb(43, 43, 165);
+  cursor: pointer;
+}
+.main button:disabled {
+  cursor: not-allowed;
+  background-color: gray;
+}
+.error {
+  margin-top: 20px;
+  font-weight: bold;
+  color: red;
+}

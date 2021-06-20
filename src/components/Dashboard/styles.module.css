@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
+.main h1 {
+  color: white;
+  text-shadow: 0px 0px 2px gray;
+  font-family: 'Rye', cursive;
+}
+
+.createPageButton {
+  padding: 7px;
+  background-color: #3a9ae0;
+  border: none;
+  outline: none;
+  box-shadow: 0px 0px 3px gray;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  text-align: center;
+  margin: 5px;
+  margin-bottom: 25px;
+}
