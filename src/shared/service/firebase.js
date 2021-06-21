@@ -1,19 +1,19 @@
-import firebase from 'firebase/app';
-import 'firebase/firestore';
-import 'firebase/auth';
+import firebase from "firebase/app";
+import "firebase/firestore";
+import "firebase/auth";
 
 try {
   firebase.initializeApp({
-    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-    authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-    databaseURL: process.env.REACT_APP_FIREBASE_DATABASE_URL,
-    projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
-    messagingSenderId: process.env.REACT_APP_FIREBASE_SENDER_ID,
-    appId: process.env.REACT_APP_FIREBASE_APP_ID,
+    apiKey: "AIzaSIdDWIoadiamt83Gy3-MTdwauidhwuadidmwa",
+    authDomain: "portexe-cawdaw.firebaseapp.com",
+    databaseURL: "portexe-hrgdgs.appspot.com",
+    projectId: "portexe-hjtfjseg",
+    messagingSenderId: "38979783",
+    appId: "2:33542290468153:web:9981e237e68eed2eba6de8",
   });
 } catch (error) {
   if (!/already exists/u.test(error.message)) {
-    console.error('Firebase admin initialization error', error.stack);
+    console.error("Firebase admin initialization error", error.stack);
   }
 }
 
